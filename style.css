@@ -1,1 +1,64 @@
-/* CSS Style Sheet */
+html {
+    background-image:url(img/computer.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+body {
+    width: 600px;
+    margin:auto;
+    margin-top: 75px;
+    background-color: rgba(98, 127, 206, 0.877);
+    padding: 50px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 650;
+    padding: 6px, 0px;
+
+}
+
+p {
+    font-family: monospace;
+    font-size: 17px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 6px 0px;
+}
+
+button {
+    background-color: rgb(143, 86, 170);
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    padding: 8px;
+    margin-bottom: 8px;
+    margin-top: 9px;
+    border-radius: 30px;
+    font-variant-caps: small-caps;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+button:hover {
+    background-color: rgb(68, 77, 207);
+    color: black;
+    cursor: pointer;
+}
+
+input {
+    width: 50px;
+}
+
+.percent {
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+
